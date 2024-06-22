@@ -1,0 +1,8 @@
+/* fallback */
+@font-face {
+  font-family: 'Playwrite NZ';
+  font-style: normal;
+  font-weight: 100 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/playwritenz/v4/d6lPkaOxRsyr_zZDmUYvh2TM0vJmjmU.woff2) format('woff2');
+}
