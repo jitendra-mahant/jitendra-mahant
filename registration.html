@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        fieldset {
+            background-color: rgb(86, 86, 203);
+            margin: 0px;
+        }
+
+        .input-field {
+            background-color: antiquewhite;
+            height: 25px;
+            width: 180px;
+            margin-left: 5px;
+        }
+
+
+
+
+        h1 {
+            background-color: lightgreen;
+            font-size: large;
+            color: darkblue;
+        }
+
+
+
+        label {
+            color: white;
+        }
+
+        .main {
+            height: 110vh;
+            width: 60vw;
+            padding: 3%;
+            margin-left: 17%;
+        }
+
+        .submit {
+            margin-left: 40%;
+        }
+    </style>
+
+    <title>Registration Form </title>
+</head>
+
+<body>
+    <form>
+        <u>
+            <h1 style="text-align: center;"> Student's Registration Form</h1>
+        </u>
+        <fieldset class="main">
+            <br>
+            <!-- Personal details -->
+            <label class="label-style"> First Name:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter Your First Name " class="input-field">
+            <br>
+            <br>
+            <label> Last Name:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter Your Last Name " class="input-field">
+            <br>
+            <br>
+            <label>Date Of Birth:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" placeholder="Enter Your D.O.B " class="input-field">
+            <br>
+            <br>
+            <label>E-Mail ID:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" placeholder="Enter Your E-mail " class="input-field" style="margin-left: 29px;">
+            <br>
+            <br>
+            <label>Mobile Number:-</label>&nbsp;
+            <input type="number" placeholder="Enter Your Mobile No. " class="input-field"
+                style="margin-right: 100  px;">
+            <br>
+            <br>
+            <label style="text-align: end;"> Gender:-
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label class="label-style"> Male</label>
+            <input type="radio" name="Gender">
+            <label class="label-style">Female </label>
+            <input type="radio" name="Gender">
+            <label class="label-style"> Other </label>
+            <input type="radio" name="Gender">
+            <br>
+            <br>
+            <!-- address -->
+            <label>Address:-
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <textarea name="address" cols="22  " rows="3"></textarea>
+            <br>
+            <br>
+            <label>City:-
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="Enter Your City " class="input-field">
+            <br>
+            <br>
+            <label>Pincode
+                :-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="number" placeholder="Enter Your Pincode " class="input-field">
+            <br>
+            <br>
+            <label>State:-
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <select name="state">
+                <option>Maharashtra</option>
+                <option>Madhya Pradesh</option>
+                <option>Assam </option>
+            </select>
+            <br>
+            <br>
+            <label>Country:-
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" placeholder="India" class="input-field">
+            <br>
+            <br>
+            <!-- hobbies -->
+            <label
+                class="label-style">Hobbies:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label class="label-style">Reading</label>
+            <input type="checkbox" name="Hobbies">
+            <label class="label-style">Drawing</label>
+            <input type="checkbox" name="Hobbies">
+            <label class="label-style">Singing</label>
+            <input type="checkbox" name="Hobbies">
+            <label class="label-style">Dancing</label>
+            <input type="checkbox" name="Hobbies">
+            <label class="label-style">Sketching</label>
+            <input type="checkbox" name="Hobbies">
+
+            <label class="label-style">Other</label>
+            <input type="text" name="Hobbies">
+            <br>
+            <br>
+            <!-- Educational Qualifications  -->
+            <label> Qualifications:-</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <table>
+                <tr>
+                    <th> SI No. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th> Examination&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th>Board&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th>Percentage&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                    <th> Year Of Passing&nbsp;&nbsp;</th>
+                <tr>
+                    <td>01</td>
+                    <td>Class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Master</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <br><br>
+            </table>
+            <br>
+            <br>
+            <label class="label-style"> Course <br> Applied For </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label class="label-style">B-Tech</label>
+            <input type="radio" name="Course Applied for">&nbsp;
+            <label class="label-style">BBA</label>
+            <input type="radio" name="Course Applied for">&nbsp;
+            <label class="label-style">B.Com</label>
+            <input type="radio" name="Course Applied for">&nbsp;
+            <label class="label-style">B.sc</label>
+            <input type="radio" name="Course Applied for">&nbsp;
+            <br>
+            <br>
+            <br><br>
+            <!-- submit -->
+            <button class="submit"> Submit</button> <button>Reset</button>
+    </form>
+</body>
+
+</html>
